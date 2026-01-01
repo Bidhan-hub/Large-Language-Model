@@ -1,9 +1,9 @@
 # Large-Language-Model
 Day-1 CREATING CHAT COMPLETION AND LYRIC COMPLETION ASSISTANT
-Project 1: Chat Completion using OpenAI API
+Project 1: Chat Completion using OpenAI API.
 This project demonstrates how to use the OpenAI Chat Completion API in Python to generate multiple short responses from a given prompt. The implementation shows how to configure key generation parameters such as max_tokens, temperature, and n (number of responses) to control the behavior of a large language model. The project also explains practical issues like deterministic outputs at temperature zero and how token limits influence model predictions. This serves as a foundational example for understanding how modern LLMs generate text probabilistically.
 The project is implemented in Google Colab using the official OpenAI Python SDK, making it easy to reproduce and extend. It is ideal for beginners who want hands-on experience with APIs, prompt design, and response handling. This project highlights real-world challenges such as unexpected completions and demonstrates how prompt engineering and parameter tuning can improve results.
 
-Project 2: Lyric Completion Assistant (Roxette)
-This project builds an interactive Lyric Completion Assistant using the OpenAI Chat Completion API. The assistant is guided by a system message that defines its role as a Roxette lyric completion bot and is trained using few-shot learning with example song lines and their continuations. By maintaining a structured message history, the chatbot learns to consistently generate the next line of a song when given a lyric prompt such as “Listen to your”.
+Project 2: Lyric Completion Assistant (Roxette).
+This project builds an interactive Lyric Completion Assistant using the OpenAI Chat Completion API. The assistant is guided by a system message that defines its role as a Roxette lyric completion bot and is trained using few-shot learning with example song lines and their continuations. By maintaining a structured message history, the chatbot learns to consistently generate the next line of a song when given a lyric prompt.
 The application runs in a loop, allowing continuous interaction while preserving conversation context by appending both user inputs and assistant responses back into the message list. This project demonstrates advanced concepts such as conversational memory, role-based prompting, and few-shot conditioning. It is a strong example of how LLMs can be adapted for domain-specific creative tasks and is well-suited for showcasing practical LLM usage in a GitHub portfolio.
